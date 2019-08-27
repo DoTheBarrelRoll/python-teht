@@ -2,12 +2,12 @@
 
 namespace python_teht
 {
-    public class Kirja
+    public class KulkuValine
     {
         string Nimi;
         string kirjailija;
         string kustantaja;
-        float hinta;
+        public float hinta;
         public string teemanNimi;
 
         public float Hinta
@@ -33,26 +33,11 @@ namespace python_teht
             this.Nimi = Nimi;
             this.kirjailija = kirjailija;
             this.kustantaja = kustantaja;
-            this.hinta = hinta;
+            this.Hinta = hinta;
             this.teemanNimi = teemanNimi;
         }
 
-        public void haeKirja(string Nimi)
-        {
-            if (Nimi == this.Nimi)
-            {
-                System.Console.WriteLine(this.Nimi + ", " + this.kirjailija + ", " + this.kustantaja + ", " + this.teemanNimi + ", " + this.hinta);
-            }
-            else
-            {
-                System.Console.WriteLine("Kirjaa ei löytynyt.");
-            }
-        }
-
-        static void VaihdaTeema(Kirja kirja, string uusiTeema)
-        {
-            kirja.teemanNimi = uusiTeema;
-        }
+        
     }
     class Program
     {
@@ -63,12 +48,9 @@ namespace python_teht
         static void Main(string[] args)
         {
             Kirja k = new Kirja("kirja", "k.kirjailija", "Kustantaja", 21.2f, "Draama");
-
-            k.haeKirja("kirja");
-
-            VaihdaTeema(k, "Jännitys");
-
-            k.haeKirja("kirja");
+            Kirja k2 = new Kirja("kirja 2", "O. kirjoittaja", "Kustantaja OY", 35.1f, "Jännitys");
+            Console.WriteLine(k.Hinta);
+            Console.WriteLine(k2.Hinta);
         }
     }
 }

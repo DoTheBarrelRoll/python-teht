@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miikka\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/miikka/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miikka\\Documents\\GitHub\\python-teht\\python-teht.csproj",
+      "projectUniqueName": "/home/miikka/Documents/GitHub/python-teht/python-teht.csproj",
       "projectName": "python-teht",
-      "projectPath": "C:\\Users\\Miikka\\Documents\\GitHub\\python-teht\\python-teht.csproj",
-      "packagesPath": "C:\\Users\\Miikka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miikka\\Documents\\GitHub\\python-teht\\obj\\",
+      "projectPath": "/home/miikka/Documents/GitHub/python-teht/python-teht.csproj",
+      "packagesPath": "/home/miikka/.nuget/packages/",
+      "outputPath": "/home/miikka/Documents/GitHub/python-teht/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Miikka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/miikka/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
