@@ -4,53 +4,29 @@ namespace python_teht
 {
     public class KulkuValine
     {
-        string Nimi;
-        string kirjailija;
-        string kustantaja;
-        public float hinta;
-        public string teemanNimi;
+        protected string tyyppi;
+        protected string merkki;
+        protected int vuosiMalli;
+        protected float hinta;
 
-        public float Hinta
+        public KulkuValine(string tyyppi, string merkki, int vuosiMalli, float hinta)
         {
-            get
-            {
-                return hinta;
-            }
-
-            set
-            {
-                if (value > 30)
-                {
-                    hinta = value * 0.9f;
-                } else
-                {
-                    hinta = value;
-                }
-            }
-        }
-        public Kirja(string Nimi, string kirjailija, string kustantaja, float hinta, string teemanNimi)
-        {
-            this.Nimi = Nimi;
-            this.kirjailija = kirjailija;
-            this.kustantaja = kustantaja;
-            this.Hinta = hinta;
-            this.teemanNimi = teemanNimi;
+            this.tyyppi = tyyppi;
+            this.merkki = merkki;
+            this.vuosiMalli = vuosiMalli;
+            this.hinta = hinta;   
         }
 
-        
+        public void tulostaTiedot() {
+            Console.WriteLine();
+        }
     }
     class Program
     {
-        static void VaihdaTeema(Kirja kirja, string uusiTeema)
-        {
-            kirja.teemanNimi = uusiTeema;
-        }
         static void Main(string[] args)
         {
-            Kirja k = new Kirja("kirja", "k.kirjailija", "Kustantaja", 21.2f, "Draama");
-            Kirja k2 = new Kirja("kirja 2", "O. kirjoittaja", "Kustantaja OY", 35.1f, "Jännitys");
-            Console.WriteLine(k.Hinta);
-            Console.WriteLine(k2.Hinta);
+            KulkuValine auto = new KulkuValine("Henkilöauto", "Tojota", 1998, 20000f);
+
         }
     }
 }
