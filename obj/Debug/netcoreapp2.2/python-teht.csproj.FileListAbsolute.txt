@@ -1,0 +1,11 @@
+C:\Users\Miikka\Documents\GitHub\python-teht\bin\Debug\netcoreapp2.2\python-teht.deps.json
+C:\Users\Miikka\Documents\GitHub\python-teht\bin\Debug\netcoreapp2.2\python-teht.runtimeconfig.json
+C:\Users\Miikka\Documents\GitHub\python-teht\bin\Debug\netcoreapp2.2\python-teht.runtimeconfig.dev.json
+C:\Users\Miikka\Documents\GitHub\python-teht\bin\Debug\netcoreapp2.2\python-teht.dll
+C:\Users\Miikka\Documents\GitHub\python-teht\bin\Debug\netcoreapp2.2\python-teht.pdb
+C:\Users\Miikka\Documents\GitHub\python-teht\obj\Debug\netcoreapp2.2\python-teht.csprojAssemblyReference.cache
+C:\Users\Miikka\Documents\GitHub\python-teht\obj\Debug\netcoreapp2.2\python-teht.csproj.CoreCompileInputs.cache
+C:\Users\Miikka\Documents\GitHub\python-teht\obj\Debug\netcoreapp2.2\python-teht.AssemblyInfoInputs.cache
+C:\Users\Miikka\Documents\GitHub\python-teht\obj\Debug\netcoreapp2.2\python-teht.AssemblyInfo.cs
+C:\Users\Miikka\Documents\GitHub\python-teht\obj\Debug\netcoreapp2.2\python-teht.dll
+C:\Users\Miikka\Documents\GitHub\python-teht\obj\Debug\netcoreapp2.2\python-teht.pdb

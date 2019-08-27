@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Miikka\\Documents\\GitHub\\python-teht\\python-teht.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Miikka\\Documents\\GitHub\\python-teht\\python-teht.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Miikka\\Documents\\GitHub\\python-teht\\python-teht.csproj",
+        "projectName": "python-teht",
+        "projectPath": "C:\\Users\\Miikka\\Documents\\GitHub\\python-teht\\python-teht.csproj",
+        "packagesPath": "C:\\Users\\Miikka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miikka\\Documents\\GitHub\\python-teht\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Miikka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
